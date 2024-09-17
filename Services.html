@@ -17,6 +17,25 @@
          body {
              font-family: Arial, sans-serif;
          }
+
+         @media (max-width: 767px) {
+            .nav-buttons {
+              margin: 10px 5px;
+            }
+          }
+          
+          @media (min-width: 768px) and (max-width: 1023px) {
+            .nav-buttons {
+              margin: 10px 10px;
+            }
+          }
+          
+          @media (min-width: 1024px) {
+            .nav-buttons {
+              margin: 10px 20px;
+            }
+          }
+          
  
          .nav-buttons {
              display: flex;
@@ -82,6 +101,30 @@
          .car p {
              margin-bottom: 20px;
          }
+
+
+
+         /* For desktop and laptop screens */
+@media (min-width: 1024px) {
+    .body {
+        max-width: 1200px;
+    }
+}
+
+/* For tablet screens */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .body {
+        max-width: 900px;
+    }
+}
+
+/* For mobile screens */
+@media (max-width: 767px) {
+    .body {
+        padding: 10px;
+    }
+}
+
  
      </style>
  </head>
