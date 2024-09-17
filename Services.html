@@ -56,6 +56,12 @@
          .nav-button:hover {
              background-color: #555;
          }
+
+         .price{
+            color: #f0f0f0;
+            justify-content: space-between;
+            
+         }
  
          .header {
              background-color: darkcyan;
@@ -69,7 +75,7 @@
          }
          .sliding-text {
              display: flex;
-             animation: slide 18s infinite;
+             animation: slide 50s infinite;
          }
          .sliding-text span {
              margin: 0 10px;
@@ -92,21 +98,16 @@
             background-image: url(personal2.jpg);
             background-position-x: center;
             background-repeat: no-repeat;
-            background-position: 50px;
+            background-position: 120px;
             background-attachment: fixed;
             background-color: #333;
          }
          .car {
-             margin: 20px;
-             padding: 20px;
-             border: 1px solid #ddd;
-             border-radius: 10px;
-             width: calc(33.33% - 20px);
-             margin-left: 500px;
-             font-size: x-large;
-             position: relative;
+             margin: 0px;
+             padding: 2px;
              border-radius: none;
              border-color: aqua;
+             justify-content: space-between;
          }
          .car h2 {
              margin-top: 0;
@@ -168,66 +169,36 @@
      </div>
      <main>
      <section class="cars">
-         <div class="car">
+         
+            <nav class="car">
+
              <img src="download1.jpg" alt="">
-             <h2>Car 1</h2>
-             <p>Price: $10,000</p>
-             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-         </div>
-         <div class="car">
+             <span class="price">k780,000</span>
              <img src="download2.jpg" alt="">
-             <h2>Car 2</h2>
-             <p>Price: $20,000</p>
-             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-         </div>
-         <div class="car">
+             <span class="price">k550,000</span>
              <img src="download3.jpg" alt="">
-             <h2>Car 3</h2>
-             <p>Price: $30,000</p>
-             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-         </div>
-         <div class="car">
+             <span class="price">k440,000</span>
+            </nav>
+
+         <nav class="car">
              <img src="download4.jpg" alt="">
-             <h2>Car 4</h2>
-             <p>Price: $40,000</p>
-             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-         </div>
-         <div class="car">
+             <span class="price">k500,000</span>
              <img src="download5.jpg" alt="">
-             <h2>Car 5</h2>
-             <p>Price: $50,000</p>
-             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-         </div>
-         <div class="car">
-             <img src="download6.jpg" alt="">
-             <h2>Car 6</h2>
-             <p>Price: $60,000</p>
-             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-         </div>
-         <div class="car">
+             <span class="price">k400,000</span>
+             <img src="download6.jpg" alt="">    
+             <span class="price">14000,000</span>  
+         </nav>
+
+         <nav class="car">
              <img src="download7.jpg" alt="">
-             <h2>Car 7</h2>
-             <p>Price: $70,000</p>
-             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-         </div>
-         <div class="car">
+             <span class="price">k880,000</span>
              <img src="download8.jpg" alt="">
-             <h2>Car 8</h2>
-             <p>Price: $80,000</p>
-             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-         </div>
-         <div class="car">
+             <span class="price">k380,000</span>
              <img src="download9.jpg" alt="">
-             <h2>Car 9</h2>
-             <p>Price: $90,000</p>
-             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-         </div>
-         <div class="car">
-             <img src="download10.jpg" alt="">
-             <h2>Car 9</h2>
-             <p>Price: $90,000</p>
-             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-         </div>
+             <span class="price">k970,000</span>
+             
+             
+         </nav>
         </section>
     </main>
  </body>
