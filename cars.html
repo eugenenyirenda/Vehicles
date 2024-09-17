@@ -1,0 +1,185 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .nav-buttons {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .nav-button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 0 150px;
+        }
+        .nav-button:hover {
+            background-color: #555;
+        }
+
+        .header {
+            background-color: darkcyan;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            overflow: hidden;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .sliding-text {
+            display: flex;
+            animation: slide 18s infinite;
+        }
+        .sliding-text span {
+            margin: 0 10px;
+            font-size: 24px;
+            font-weight: bold;
+            color: #fff;
+        }
+        @keyframes slide {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+        .cars {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .car {
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            width: calc(33.33% - 20px);
+        }
+        .car h2 {
+            margin-top: 0;
+        }
+        .car p {
+            margin-bottom: 20px;
+        }
+
+/* For desktop and laptop screens */
+@media (min-width: 1024px) {
+    .body {
+        max-width: 1200px;
+    }
+}
+
+/* For tablet screens */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .body {
+        max-width: 900px;
+    }
+}
+
+/* For mobile screens */
+@media (max-width: 767px) {
+    .body {
+        padding: 10px;
+    }
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="nav-buttons">
+         <a href="index.html"><button class="nav-button">Home</button></a>   
+          <a href=""> <button class="nav-button">Cars</button> </a>  
+          <a href="about.html"><button class="nav-button">About</button></a>  
+           <a href="contact.html"><button class="nav-button">Contact</button></a> 
+        </div>
+    
+        <h1>Choo your best and dream car</h1>
+        <div class="sliding-text">
+            <span style="color: green;">WELOME</span>
+            <span style="color: rgb(0, 70, 128);">TO</span>
+            <span style="color: rgb(2, 24, 2);">EUGENE'S</span>
+            <span style="color: rgb(128, 87, 0);">NEW</span>
+            <span style="color: rgb(128, 41, 0);">MODEL</span>
+            <span style="color: rgb(128, 0, 70);">CARS</span>
+        </div>
+    </div>
+    <div class="cars">
+        <div class="car">
+            <img src="download1.jpg" alt="">
+            <h2>Car 1</h2>
+            <p>Price: $10,000</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="car">
+            <img src="download2.jpg" alt="">
+            <h2>Car 2</h2>
+            <p>Price: $20,000</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="car">
+            <img src="download3.jpg" alt="">
+            <h2>Car 3</h2>
+            <p>Price: $30,000</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="car">
+            <img src="download4.jpg" alt="">
+            <h2>Car 4</h2>
+            <p>Price: $40,000</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="car">
+            <img src="download5.jpg" alt="">
+            <h2>Car 5</h2>
+            <p>Price: $50,000</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="car">
+            <img src="download6.jpg" alt="">
+            <h2>Car 6</h2>
+            <p>Price: $60,000</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="car">
+            <img src="download7.jpg" alt="">
+            <h2>Car 7</h2>
+            <p>Price: $70,000</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="car">
+            <img src="download8.jpg" alt="">
+            <h2>Car 8</h2>
+            <p>Price: $80,000</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="car">
+            <img src="download9.jpg" alt="">
+            <h2>Car 9</h2>
+            <p>Price: $90,000</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="car">
+            <img src="download10.jpg" alt="">
+            <h2>Car 9</h2>
+            <p>Price: $90,000</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+    </div>
+</body>
+</html>
+
