@@ -60,9 +60,9 @@
          .header {
              background-color: darkcyan;
              color: #fff;
-             padding: 20px;
+             padding: 1em;
              text-align: center;
-             overflow: hidden;
+            
          }
          .header h1 {
              margin: 0;
@@ -86,9 +86,15 @@
              }
          }
          .cars {
-             display: flex;
-             flex-wrap: wrap;
-             justify-content: center;
+            background-image: linear-gradient(to bottom, #f0f0f0, #fff);
+            padding: 2em;
+            text-align: center;
+            background-image: url(personal2.jpg);
+            background-position-x: center;
+            background-repeat: no-repeat;
+            background-position: 50px;
+            background-attachment: fixed;
+            background-color: #333;
          }
          .car {
              margin: 20px;
@@ -96,12 +102,19 @@
              border: 1px solid #ddd;
              border-radius: 10px;
              width: calc(33.33% - 20px);
+             margin-left: 500px;
+             font-size: x-large;
+             position: relative;
+             border-radius: none;
+             border-color: aqua;
          }
          .car h2 {
              margin-top: 0;
+             color: blue;
          }
          .car p {
              margin-bottom: 20px;
+             color: #ddd;
          }
 
 
@@ -153,7 +166,8 @@
              <span style="color: rgb(128, 0, 70);">CARS</span>
          </div>
      </div>
-     <div class="cars">
+     <main>
+     <section class="cars">
          <div class="car">
              <img src="download1.jpg" alt="">
              <h2>Car 1</h2>
@@ -214,6 +228,7 @@
              <p>Price: $90,000</p>
              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
          </div>
-     </div>
+        </section>
+    </main>
  </body>
 </html>
